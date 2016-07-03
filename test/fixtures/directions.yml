@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: directions
+#
+#  id         :integer          not null, primary key
+#  step       :text
+#  recipe_id  :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  step: MyText
+  recipe_id: 
+
+two:
+  step: MyText
+  recipe_id: 
